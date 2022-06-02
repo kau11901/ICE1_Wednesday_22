@@ -22,9 +22,9 @@ public class CardTrickICE1 {
     public static void main(String[] args) 
     {
         Card[] magicHand = new Card[7]; //Array of object
-        Card luckyCard = new Card();
+        Card luckyCard = new Card(); // Creating a luckyCard
         luckyCard.setValue(5);
-        luckyCard.setSuits("hearts");
+        luckyCard.setSuits("diamonds");
         Scanner in = new Scanner(System.in);
         for (int i = 0; i < magicHand.length; i++) {
             magicHand[i] = new Card();
